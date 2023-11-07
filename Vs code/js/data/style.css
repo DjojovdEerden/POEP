@@ -1,0 +1,13 @@
+body{
+    background: white;
+
+}
+#myCanvas {
+    position: absolute;
+    border: 3px solid white;
+    width: 1024px;
+    height: 1085px;
+    transform: translate(-50%, -50%);
+    top: 80%;
+    left: 50%;
+}
