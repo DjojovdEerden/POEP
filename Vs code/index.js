@@ -102,11 +102,11 @@ class Layer{
 
 }
 
-const GroundLayer = new Layer(Ground, 2, 160);
-const GrassLayer = new Layer(Grass, 1.5, 160);
-const BigTreeLayer = new Layer(BigTree, 1, 0);
-const TheTreeLayer1 = new Layer(TheTreeBehind1, 0.5, 20);
-const TheTreeLayer2 = new Layer(TheTreeBehind2, 0.3, 0);
+const GroundLayer = new Layer(Ground, 0, 160);
+const GrassLayer = new Layer(Grass, 0, 160);
+const BigTreeLayer = new Layer(BigTree, 0, 0);
+const TheTreeLayer1 = new Layer(TheTreeBehind1, 0, 20);
+const TheTreeLayer2 = new Layer(TheTreeBehind2, 0, 0);
 
 
 function animate(){
